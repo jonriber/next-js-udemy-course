@@ -2,7 +2,7 @@
 
 Projects from the Udemy course "Next JS: The complete developer´s guide"
 
-Here I am inserting personal notes about my development, following the course from udemy.
+Here I am sharing personal notes about my development as I crash through the course.
 
 Everything I found useful or what I am considering a huge change from the perspective of a `React developer`.
 
