@@ -4,7 +4,9 @@ Projects from the Udemy course "Next JS: The complete developer´s guide"
 
 Here I am inserting personal notes about my development, following the course from udemy.
 
-Everything I found useful or what I am considering a huge change from the perspective of a React developer.
+Everything I found useful or what I am considering a huge change from the perspective of a `React developer`.
+
+Production link to it: <https://corp-8g5gdqp9g-jonribers-projects.vercel.app>
 
 ## Route file system
 
@@ -42,4 +44,20 @@ Options for sizing the Image:
 - Assign a height and width to the Image component
 - Assign a `fill` prop, the image will expand to fill up the parent element
 
-## 
+## Reusable components
+
+This is the part where `React` comes in. The magic of props into components is what helps us to think about 
+modularity and creating compoments that could be detached from each other, always thinking about abstraction.
+
+So far, so good, nothing to fancy or kind of a new thing when compared to the way I used to do when developing a React
+application.
+
+## Deploy to Vercel
+
+I already had vercel npm package installed on my computer, due to another project, but for documentation purpose:
+
+- in your terminal run `npm install -g vercel`
+- After completion, still in terminal, run `vercel`
+- Log in to vercel (yes, you need to get a vercel account for it)
+- A bunch of questions about deployment will start to appear, pick according to your project
+- That´s pretty much it, a public link will be available if everything worked as expected

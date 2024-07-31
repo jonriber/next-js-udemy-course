@@ -10,14 +10,15 @@ interface Heroprops {
 export default function Hero(props: Heroprops) {
   return (
     <div className="relative h-screen">
-        <div>
+        
+        <div >
             <Image 
                 src={props.imgData} 
                 alt={props.imgAlt} 
                 fill
-                style={{objectFit: 'cover'}}
+                style={{objectFit: 'cover', zIndex: -1}}
             />
-            <div className="absolute inset-0 bg-gradient-to-r from-slate-900"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-slate-900"/>
         </div>
         <div className="pt-48 flex justify-center items-center">
             <h1 className="text-white text-6xl">{props.title}</h1>
