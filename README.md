@@ -1,4 +1,4 @@
-# next-js-udemy-course
+# next-js Corp landing page application
 
 Projects from the Udemy course "Next JS: The complete developer´s guide"
 
